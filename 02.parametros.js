@@ -1,9 +1,9 @@
-function mostrarTotal(montoTotal){
-    console.log ("El total a pagar con IVA incluido es: $" + montoTotal)
+function mostrarTotal(montoTotal) {
+    console.log("El total a pagar con IVA incluido es: $" + montoTotal)
 
 }
 
-function calcularPrecioConIVA(precioBase, callbackMostrar){
+function calcularPrecioConIVA(precioBase, callbackMostrar) {
     var iva = precioBase * 0.16;
     var total = precioBase + iva;
 

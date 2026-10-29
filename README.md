@@ -21,4 +21,11 @@ Call Stack, CallBack Queue y Microtask Queue, Entorno y Event Loop (Bucle de eve
 
 ECMAScript (ES6) 2015
 Promesas (promise)
-Es un objeto de JS, que representan la eventual finalización de una operación asíncrona y su valor resultante()
+Es un objeto de JS, que representan la eventual finalización de una operación asíncrona y su valor resultante(con un exito o un fracaso) de una operación asincrona y su valor resultante (puede ser una promesa)
+
+1. pediente (pending)
+2. cumplida (fuldilled)
+3. rechazada (rejected)
+
+1. Crear promesas: new Promise()
+2. Consumir promesas: .then(), catch(), finally()
